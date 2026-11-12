@@ -1,5 +1,7 @@
 # Projeto RAIZ — acompanhamento da versão Python
 
+ESSE ARQUIVO MD NÃO É O README FINAL, APENAS UTILIZO ELE PARA INFORMAR OS INTEGRANTES DE EQUIPE O QUE ESTÁ SENDO FEITO ATÉ AGORA. README FINAL SERA FEITO APÓS A CONCLUSÃO DESTE PROJETO.
+
 ## Sobre o projeto
 
 O RAIZ é uma proposta de apoio a pequenos produtores de hortaliças. A ideia é acompanhar a umidade do solo e a temperatura para indicar o estado atual do canteiro e, nas próximas etapas, estimar quando pode ser necessário irrigar.
