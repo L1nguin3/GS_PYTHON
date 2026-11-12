@@ -61,6 +61,7 @@ Além desses pedidos, o aluno compartilhou tentativas de código para `pedir_num
 - Criou e atualizou documentação de acompanhamento: `README.md`, `CONTEXTO_RAIZ.md` e `EXERCICIOS_RESTANTES_PYTHON.md`.
 - Sugeriu mensagens de commit para descrever as alterações do cálculo.
 - Não foram executados testes automatizados pela IA. O aluno informou que os testes manuais de `calcular_k()`, `calcular_horas()` e do fluxo do menu estavam funcionando. No teste compartilhado, a saída mostrou 38 horas para 80% a 30 °C, 20 horas para 55% a 28 °C e 0 horas para leituras de 38%.
+- Sugeriu mensagens finais de commits para descrever as alterações de funções e docs.
 
 ## O que foi escrito pelo aluno
 
