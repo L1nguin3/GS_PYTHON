@@ -84,10 +84,3 @@ As respostas abaixo foram escritas pelo aluno. Revise-as antes da entrega para c
 
 5. **Que limitações você percebeu no uso da IA neste projeto?**
    - Resposta do aluno: Somente as limitações que foram já pré definidas no contexto que a equipe SONDER tinha definido antes. O integrante Guilherme criou um arquivo MARKDOWN para que utilizassemos de contexto geral dentro das IAs e em poucas palavras nos proibisse de pedir código pronto, mas nos ensinasse com lógica e exercícios como fazer os nossos projetos.
-
-## Conferência antes de entregar
-
-- [ ] Confira se a seção de Claude contém todos os prompts relevantes da conversa anexada e acrescente outros se necessário.
-- [ ] Confira se os trechos de prompts representam fielmente as conversas reais.
-- [ ] Revise a análise crítica e confirme que está fiel à sua experiência.
-- [ ] Confirme com o professor se o arquivo deve se chamar `prompts.md` ou `prompt.md`.
