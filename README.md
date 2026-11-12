@@ -55,5 +55,4 @@ As regras da disciplina determinam que a IA seja usada como copiloto para explic
 - `raiz.py` — protótipo atual do menu e das leituras.
 - `testes_codigo.py` — rascunho comentado usado para conferir a função de cálculo de `k`.
 - `CONTEXTO_RAIZ.md` — estado do projeto preparado para retomar o trabalho com outras IAs.
-- `EXERCICIOS_RESTANTES_PYTHON.md` — roteiro didático e checklist de entrega.
 - `prompts.md` — registro do uso de IA, ainda a conferir com as exigências do professor.
