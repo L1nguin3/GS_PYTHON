@@ -6,20 +6,80 @@
 # print(calcular_k(22))
 # print(calcular_k(34))
 
-from raiz import calcular_k
+# from raiz import calcular_k
 
 
-def calcular_horas(umidade, temperatura):
-    if umidade < 0 or umidade > 100:
-        return "SENSOR FALHOU"
-    elif umidade <= 40:
-        return "0 horas"
-    taxa = calcular_k(temperatura)
-    contadorK = 0
-    while umidade > 40:
-        k = 2.718281828 ** -taxa
-        umidade = umidade * k
-        contadorK += 1
-    return f"{contadorK} horas"
+# def calcular_horas(umidade, temperatura):
+#     if umidade < 0 or umidade > 100:
+#         return "SENSOR FALHOU"
+#     elif umidade <= 40:
+#         return "0 horas"
+#     taxa = calcular_k(temperatura)
+#     contadorK = 0
+#     while umidade > 40:
+#         k = 2.718281828 ** -taxa
+#         umidade = umidade * k
+#         contadorK += 1
+#     return f"{contadorK} horas"
 
-print(calcular_horas(80, 34))
+# print(calcular_horas(80, 34))
+
+# from raiz import calcular_horas
+
+
+# while True:
+#     print("1 - Cadastrar | 2 - Listar | 3 - Calcular Horas | 0 - Sair")
+#     opcao = input("Escolha: ")
+
+#     if opcao in ["0", "1", "2", "3"]:
+#         match int(opcao):
+
+#             case 1:
+#                 cadastro_nome = pedir_nome_canteiro()
+#                 cadastro_umidade = pedir_numero("Digite a umidade: ", -100, 200)
+#                 cadastro_temperatura = pedir_numero("Digite a temperatura: ", 15, 40)
+#                 nome_canteiro.append(cadastro_nome)
+#                 umidades.append(cadastro_umidade)
+#                 temperaturas.append(cadastro_temperatura)
+#                 print("Cadastro realizado com sucesso!")
+
+#             case 2:
+#                 if len(umidades) != len(temperaturas):
+#                     print("Erro: quantidade de registros diferente!")
+#                 elif len(umidades) == 0:
+#                     print("Nenhum registro encontrado!")
+#                 elif len(umidades) != len(nome_canteiro):
+#                     print("Erro: quantidade de registros diferente!")
+#                 else:
+#                     print("Registros")
+#                     contador = 0
+#                     while contador < len(umidades):
+#                         nome = nome_canteiro[contador]
+#                         umidade = umidades[contador]
+#                         temperatura = temperaturas[contador]
+#                         classificacao = classificar_umidade(umidade)
+#                         print(f"Nome: {nome} | Umidade: {umidade} | Temperatura: {temperatura} | Classificação: {classificacao}")
+#                         contador += 1
+#             case 3:
+#                 if len(umidades) != len(temperaturas):
+#                     print("Erro: quantidade de registros diferente!")
+#                 elif len(umidades) == 0:
+#                     print("Nenhum registro encontrado!")
+#                 elif len(umidades) != len(nome_canteiro):
+#                     print("Erro: quantidade de registros diferente!")
+#                 else:
+#                     print("Registros")
+#                     contador = 0
+#                     while contador < len(umidades):
+#                         nome = nome_canteiro[contador]
+#                         umidade = umidades[contador]
+#                         temperatura = temperaturas[contador]
+#                         horas = calcular_horas(umidade, temperatura)
+#                         print(f"Nome: {nome} | Umidade: {umidade} | Temperatura: {temperatura} | Horas para irrigar: {horas}")
+#                         contador += 1
+
+#             case 0:
+#                 print("Até logo!")
+#                 break
+#     else:
+#         print("Opção inválida!")
