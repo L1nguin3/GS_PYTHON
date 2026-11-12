@@ -20,6 +20,11 @@ def pedir_numero(mensagem, minimo, maximo):
             return numero
         print(f"Digite um número entre {minimo} e {maximo}")
 
+def calcular_k(temperatura):
+    temperatura = float(temperatura)
+    k = 0.0096 + 0.0011 * (temperatura - 22)
+    return k
+
 
 while True:
     print("\n1 - Cadastrar | 2 - Listar | 0 - Sair")
@@ -55,8 +60,3 @@ while True:
                 break
     else:
         print("Opção inválida!")
-        
-def calcular_k(temperatura):
-    temperatura = float(temperatura)
-    k = 0.0096 + 0.0011 * (temperatura - 22)
-    return k
