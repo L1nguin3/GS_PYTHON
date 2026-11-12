@@ -25,6 +25,18 @@ def calcular_k(temperatura):
     k = 0.0096 + 0.0011 * (temperatura - 22)
     return k
 
+def calcular_horas(umidade, temperatura):
+    if umidade < 0 or umidade > 100:
+        return "SENSOR FALHOU"
+    elif umidade <= 40:
+        return "0 horas"
+    taxa = calcular_k(temperatura)
+    contadorK = 0
+    while umidade > 40:
+        k = 2.718281828 ** -taxa
+        umidade = umidade * k
+        contadorK += 1
+    return f"{contadorK} horas"
 
 while True:
     print("\n1 - Cadastrar | 2 - Listar | 0 - Sair")
